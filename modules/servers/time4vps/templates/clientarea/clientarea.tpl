@@ -7,7 +7,7 @@
         </div>
     </div>
 {else}
-    <h2>Server Info</h2>
+   <center> <h2>Server Overview Info</h2> </center>
 
 
     <table class="table">
@@ -15,7 +15,7 @@
             <td><strong>Hostname</strong></td>
             <td>{$details.domain}</td>
         </tr>
-        {if $details.label}
+      
             <tr>
                 <td><strong>Label</strong></td>
                 <td><span class="label label-primary">{$details.label}</span></td>
@@ -63,4 +63,5 @@
             {/if}
         {/if}
     </table>
+   
 {/if}
