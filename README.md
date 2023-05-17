@@ -6,7 +6,6 @@ This is Time4VPS provisioning module for WHMCS platform.
   
 ## Installation  
   
- 1. Download latest module [release]([[https://github.com/time4vps/whmcs/releases](https://github.com/mahfuzreham/Time4VPS/)](https://github.com/mahfuzreham/Time4VPS/)).
  2. Upload archive folder contents to your WHMCS installation root directory.
  3. Login to WHMCS admin panel.
  4. Navigate to `Setup -> Products / Services -> Servers`
