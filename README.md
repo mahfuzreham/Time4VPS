@@ -18,6 +18,11 @@ This is Time4VPS provisioning module for WHMCS platform.
 	- Set your Time4VPS username and password accordingly
 F. Create DB tables by navigating to `http://<your whmcs url>/modules/servers/time4vps/install.php` as Admin
   
-## Product import / update
+## Product import/update
+##
+Code: UPDATE `mod_time4vps` SET `external_id` = '22852' WHERE `mod_time4vps`.`service_id` = 11;
+
+
+
 Import / Update Time4VPS products by navigating to `http://<your whmcs url>/modules/servers/time4vps/update.php` as Admin. **Run it once, as every other request will reset any changes you made for existing Time4VPS products.**
   
